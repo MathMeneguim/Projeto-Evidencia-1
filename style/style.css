@@ -1,0 +1,171 @@
+/*intro*/
+/* :root{
+  --
+} */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+p {
+  margin-bottom: 0rem;
+}
+
+.texto-claro {
+  color: whitesmoke;
+  font-weight:600;
+}
+
+.texto-intro{
+  color: rgba(255,255,255,.7);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.branco-fosco {
+  color:  rgba(255,255,255,.7) !important;
+  font-weight:600 !important;
+}
+
+.branco {
+  color: #fff
+}
+
+.bg-purple {
+  background-color: #4d4f68;
+}
+
+.btn-darkblue {
+  background-color: #766DF4;
+}
+
+a.navbar-brand:hover {
+  color: #fff;
+;
+}
+
+.nav-item a {
+  font-size: 14px;;
+}
+.nav-item a:hover {
+  color: #fff !important;
+}
+
+button.navbar-text:hover {
+  color: #fff;
+  background-color: #5549F1;
+}
+
+.sec-intro {
+  padding-top: 4em;
+}
+
+.div-intro {
+  margin-top: 6em;
+}
+
+.div-menor-intro {
+  width: 30%
+}
+
+.margin-underline {
+  border-bottom: 1px solid rgba(255,255,255,.7);
+}
+
+.numero {
+  font-size: 40px;
+}
+
+
+/*components*/
+.span-components {
+  background-color: #807DF5;
+}
+
+.bg-components {
+  background-color: #7474F4;
+}
+
+.div-components {
+  width: 34%;
+  padding:0px;
+  background-color: transparent;
+}
+
+.cor-transparente {
+  border-color: rgba(255,255,255,.2)
+}
+
+.btn-verde {
+  background-color: #16C995
+}
+
+.ft-14px {
+  font-size: 14px
+}
+
+.ft-12px {
+  font-size: 12px
+}
+
+/*Interface*/
+
+.bg-interface {
+  background-color: #f7f7fc
+}
+
+.span-interface {
+  color: #766df4;
+  background-color: rgba(118,109,244,.08);
+}
+
+.bg-roxo {
+  background-color: #766df4
+}
+
+
+div.border-bottom {
+  border-color: rgba(255,255,255,.05) !important;
+}
+
+/* media query - md - img margin: -140px */
+
+/* jeffrey */
+
+.demos-card {
+  border-width: 0 !important;
+}
+
+.titulo-card {
+  font-size: medium;
+  color: #4A4B65;
+}
+
+.subtitulo-card {
+  font-size: small;
+}
+
+.demo-title {
+  color: #4A4B65;
+}
+
+.demo-title2 {
+  color: #766DF4;
+  background-color: #EDEDFB;
+}
+
+.header-tabela{
+  font-weight: bold;
+}
+
+.botao {
+  width: 12em;
+  height: 4em;
+}
+
+.icon-custom {
+  width: 2em;
+}
+
+.arrow-right {
+  width: 1em;
+}
