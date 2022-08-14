@@ -158,7 +158,6 @@ div.border-bottom {
 }
 
 .botao {
-  width: 12em;
   height: 4em;
 }
 
@@ -174,4 +173,8 @@ div.border-bottom {
   font-size: 12px;
   text-decoration: none;
   color: black;
+}
+
+.texto-inner {
+  font-color: #766DF4;
 }
