@@ -238,91 +238,200 @@
       
       <!--inner pages-->
       <section class="min-vh-100">
-        <div class="container-fluid col-9 align-middle sec-intro"> <!-- Laranja -->
+        <div class="container-fluid col-11 align-middle sec-intro"> 
             
-            <div class="text-center"> <!-- Amarelo -->
-              <h2 class="demo-title">Handcrafted <span class="px-3 py-1 demo-title2 rounded">Inner Pages</span> </h2>
-              <p class="text-secondary mb-5">Big collection of thoroughly designed inner page templates from User.
-                <br>Account/Dashboard to Speciality pages like 404 and Coming Soon.
-              </p>
+            <div class="text-center mb-3"> 
+              <h2 class="mb-4 fw-semibold">Handcrafted <span class="px-3 py-1 span-interface rounded">Inner Pages</span></h2>
+              <p class="opacity-75 ft-14px">Big collection of thoroughly designed inner page templates from User.</p>
+                <p class="opacity-75 ft-14px mb-5">Account/Dashboard to Speciality pages like 404 and Coming Soon.</p>
             </div>
 
 
-            <div class="container d-flex flex-column"> 
+              <div class="container d-flex flex-column"> 
                   <div class="row">
                 
-                    <div class="container col-8 d-flex justify-content-evenly gap-4"> 
-                      <div class="d-flex flex-column col-4 gap-4"> 
-                        <div class="d-flex shadow-sm p-3 text-center rounded-4 border">
-                              <img class="icon-custom" src="images/icons/person-circle.svg"></img>
-                                <p class="p7">User Account & Dashboard</p>
-                              <img class="arrow-right" src="images/icons/arrowright.svg"> 
-                        </div>
-                        <div class="d-flex align-items-center shadow-sm p-3 text-center rounded-4 border">
-                            <img class="icon-custom col-2" src="images/icons/cart.svg"></img>
+                    <div class="container col-10"> 
+                       
+                        <div class="d-flex">
+                          <div class="nav d-flex nav-pills col-6" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            
+                            <button class="nav-link active d-flex align-items-center col-5 rounded-4" style="height: 60px;" id="UserAccount" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button"  aria-controls="v-pills-home" aria-selected="true">
+                              <img class="icon-custom" src="images/icons/person-circle.svg"></img>  
+                              <p class="col-8 p7">User Account & Dashboard</p>
+                              <img class="arrow-right" src="images/icons/arrowright.svg">
+                            </button>
+
+                            <button class="nav-link col-5" id="v-pills-profile-tab" data-bs-toggle="pill" style="height: 60px;" data-bs-target="#v-pills-commerce" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                              <img class="icon-custom col-2" src="images/icons/cart.svg"></img>
                               <a class="col-8 p7">E-Commerce</a>
-                            <img class="arrow-right col-2" src="images/icons/arrowright.svg"> 
-                        </div>                       
-                        <div class="d-flex shadow-sm p-3 text-center rounded-4 border">
-                            <img class="icon-custom col-2" src="images/icons/cart.svg"></img>
+                              <img class="arrow-right col-2" src="images/icons/arrowright.svg"> 
+                            </button>
+
+                            <button class="nav-link col-5" id="v-pills-messages-tab" data-bs-toggle="pill" style="height: 60px;" data-bs-target="#v-pills-blog" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                              <img class="icon-custom col-2" src="images/icons/cart.svg"></img>
                               <a class="col-8 p7">Blog & News</a>
-                            <img class="arrow-right col-2" src="images/icons/arrowright.svg"> 
+                              <img class="arrow-right col-2" src="images/icons/arrowright.svg">
+                            </button>
+
+                            <button class="nav-link col-5" id="v-pills-messages-tab" data-bs-toggle="pill" style="height: 60px;" data-bs-target="#v-pills-portfolio" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                              <img class="icon-custom col-2" src="images/icons/portfolio.svg"></img>
+                              <a class="col-8 p7">Portfolio</a>
+                              <img class="arrow-right col-2" src="images/icons/arrowright.svg"> 
+                            </button>
+                            
+                            <button class="nav-link col-5" id="v-pills-messages-tab" data-bs-toggle="pill" style="height: 60px;" data-bs-target="#v-pills-secpage" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                              <img class="icon-custom col-2" src="images/icons/secondarypages.svg"></img>
+                              <a class="col-8 p7">Secondary Pages</a>
+                              <img class="arrow-right col-2" src="images/icons/arrowright.svg"> 
+                            </button>
+                            <button class="nav-link col-5" id="v-pills-messages-tab" data-bs-toggle="pill" style="height: 60px;" data-bs-target="#v-pills-speciality" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                              <img class="icon-custom col-2" src="images/icons/404error.svg"></img>
+                              <a class="col-8 p7">Speciality</a>
+                              <img class="arrow-right col-2" src="images/icons/arrowright.svg"> 
+                            </button>
+
+                          </div>
+
+                          <div class="tab-content container col-6" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="UserAccount">
+                              <ul>
+                                <div class="container fluid">
+                                  <div class="row gap-5">
+                                    <div class="col-4">
+                                      <li class="dropdown-item-text mb-2 me-5">User Account</li>
+                                        <li>Profile Info</li>
+                                        <li>Payment Methods</li>
+                                        <li>Notifications</li>
+                                        <li>Sign In - Illustrations</li>
+                                        <li>Sign In - Image</li>
+                                        <li>Sign In - Sign Up</li>
+                                        <li>Password Recovery</li>
+                                    </div>
+                                    <div class="col-4">
+                                      <li class="dropdown-item-text">Dashboard</li>
+                                          <li>Orders</li>
+                                          <li>Sales</li>
+                                          <li>Messages</li>
+                                          <li>Folowers</li>
+                                          <li>Reviews</li>
+                                          <li>Favorites</li>
+                                    </div>
+                                  </div>
+                                </div>
+                              </ul>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-commerce" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                              <ul>
+                                <div class="container fluid">
+                                  <div class="row">
+                                    <div class="col-6">
+                                      <li class="dropdown-item-text mb-2">Shop Layouts</li>
+                                        <li>Grid Left Sidebar</li>
+                                        <li>Right Sidebar</li>
+                                        <li>Grid No Sidebar</li>
+                                    </div>
+                                    <div class="col-6">
+                                      <li class="dropdown-item-text">Shop Pages</li>
+                                          <li>Single Product</li>
+                                          <li>Cart & Checkout</li>
+                                          <li>Order Tracking</li>
+                                    </div>
+                                  </div>
+                                </div>
+                              </ul>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-blog" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                              <ul>
+                                <div class="container fluid">
+                                  <div class="row">
+                                    <div class="col-6">
+                                      <li class="dropdown-item-text mb-2">Blog Layouts</li>
+                                        <li>Grid Right Sidebar</li>
+                                        <li>Grid Left Sidebar</li>
+                                        <li>Grid No Sidebar</li>
+                                        <li>List Right Sidebar</li>
+                                        <li>List Left Sidebar</li>
+                                        <li>List No Sidebar</li>
+                                    </div>
+                                    <div class="col-6">
+                                      <li class="dropdown-item-text">Single Post</li>
+                                          <li>Right Sidebar</li>
+                                          <li>Left Sidebar</li>
+                                          <li>No Sidebar</li>
+                                    </div>
+                                  </div>
+                                </div>
+                              </ul>
+                            </div>
+
+                            <div class="tab-pane fade" id="v-pills-portfolio" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                              <ul>
+                                <div class="container fluid">
+                                  <div class="row">
+                                    <div class="col-6">
+                                      <li class="dropdown-item-text mb-2">Portfolio Grid</li>
+                                        <li>Grid Style 1</li>
+                                        <li>Grid Style 2</li>
+                                        <li>Grid Style 3</li>
+                                        <li>Notifications</li>
+                                    </div>
+                                    <div class="col-6">
+                                      <li class="dropdown-item-text">Single Project</li>
+                                          <li>Project Side Gallery (GRID)</li>
+                                          <li>Project Side Gallery (List)</li>
+                                          <li>Project Carousel</li>
+                                          <li>Project Wide Gallery</li>
+                                    </div>
+                                  </div>
+                                </div>
+                              </ul>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-secpage" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                              <ul>
+                                <div class="container fluid">
+                                  <div class="row">
+                                    <div class="col-6">
+                                      <li class="dropdown-item-text mb-2">Inner Pages</li>
+                                        <li>About</li>
+                                        <li>Contacts v.1</li>
+                                        <li>Contacts v.2</li>
+                                        <li>Contacts v.3</li>
+                                    </div>
+                                    <div class="col-6">
+                                      <li class="dropdown-item-text">Help Center</li>
+                                          <li>Help Topics</li>
+                                          <li>Single Topic</li>
+                                          <li>Submit a Request</li>
+                                    </div>
+                                  </div>
+                                </div>
+                              </ul>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-speciality" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                              <ul>
+                                <div class="container fluid">
+                                  <div class="row">
+                                    <div class="col-6">
+                                      <li class="dropdown-item-text mb-2">404 Error</li>
+                                        <li>Simple Text</li>
+                                        <li>Illustration</li>
+                                    </div>
+                                    <div class="col-6">
+                                      <li class="dropdown-item-text">Coming Soon</li>
+                                          <li>Image</li>
+                                          <li>Illustration</li>
+                                    </div>
+                                  </div>
+                                </div>
+                              </ul>
+                            </div>
+                          </div>
                         </div>
-                      </div>
-                      <div class="d-flex flex-column col-4 gap-4">
-                        <div class="d-flex shadow-sm p-3 text-center align-items-center rounded-4 border">
-                          <img class="icon-custom col-2" src="images/icons/portfolio.svg"></img>
-                            <a class="col-8 p7">Portfolio</a>
-                          <img class="arrow-right col-2" src="images/icons/arrowright.svg"> 
-                        </div>
-                        <div class="d-flex shadow-sm p-3 text-center align-items-center rounded-4 border">
-                          <img class="icon-custom col-2" src="images/icons/secondarypages.svg"></img>
-                            <a class="col-8 p7">Secondary Pages</a>
-                          <img class="arrow-right col-2" src="images/icons/arrowright.svg"> 
-                        </div>
-                        <div class="d-flex shadow-sm p-3 text-center align-items-center rounded-4 border">
-                          <img class="icon-custom col-2" src="images/icons/404error.svg"></img>
-                            <a class="col-8 p7">Speciality</a>
-                          <img class="arrow-right col-2" src="images/icons/arrowright.svg"> 
-                        </div>
-                      </div> 
+
                     </div>
-                    <!-- Fim Lista Esquerda -->
-                    <!-- Lista Direita -->
-                      <div class="container col-4"> 
-                        <div class="row">   
-                          <div class="col">
-                            <ul class="list-group">
-                              <div class="d-flex flex-column gap-3"> 
-                                <li class="fw-bold demo-title mb-1">User Account</li>
-                                <li>Profile Info</li>
-                                <li>Payment Methods</li>
-                                <li>Notifications</li>
-                                <li>Sign In - Illustrations</li>
-                                <li>Sign In - Image</li>
-                                <li>Sign In - Sign Up</li>
-                                <li>Password Recovery</li>
-                              </div>
-                            </ul>
-                          </div> 
-                          <div class="col">
-                            <ul class="list-group">
-                              <div class="d-flex flex-column gap-3">
-                                <li class="fw-bold demo-title mb-1">Dashboard</li>
-                                <li>Orders</li>
-                                <li>Sales</li>
-                                <li>Messages</li>
-                                <li>Folowers</li>
-                                <li>Reviews</li>
-                                <li>Favorites</li>
-                              </div>
-                            </ul>
-                          </div> 
-                        </div>
-                      </div>  
-                      <!-- Fim Lista Direita --> 
-                  </div>
-            </div>
+                    
+              </div>
+        </div>
       </section>
 
       <!--Interface-->
