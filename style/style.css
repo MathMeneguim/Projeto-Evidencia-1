@@ -159,6 +159,7 @@ div.border-bottom {
 
 .botao {
   height: 4em;
+  background-color: aliceblue;
 }
 
 .icon-custom {
@@ -176,5 +177,6 @@ div.border-bottom {
 }
 
 .texto-inner {
-  font-color: #766DF4;
+  color: rebeccapurple;
+  font-weight: 500;
 }
