@@ -159,11 +159,17 @@ div.border-bottom {
 
 .botao {
   height: 4em;
+  width: 200px;
   background-color: aliceblue;
+  opacity: 75%;
 }
 
 .icon-custom {
-  width: 2em;
+  width: 3em;
+}
+
+.cor-svg {
+  fill: red!important;
 }
 
 .arrow-right {
@@ -177,6 +183,11 @@ div.border-bottom {
 }
 
 .texto-inner {
-  color: rebeccapurple;
+  color: #766DF4;
   font-weight: 500;
+}
+
+.active {
+  background-color: white!important;
+  opacity: 100%;
 }
