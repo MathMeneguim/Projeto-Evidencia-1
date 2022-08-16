@@ -1,7 +1,3 @@
-/*intro*/
-/* :root{
-  --
-} */
 body {
   font-family: 'Inter', sans-serif;
 }
@@ -34,9 +30,20 @@ p {
   background-color: #4d4f68;
 }
 
+.btn-success:hover {
+  background-color: #12A77B !important
+}
+
+
 .btn-darkblue {
   background-color: #766DF4;
+  border-color: transparent !important;
 }
+
+.btn:active {
+  background-color: #5549F1 !important;
+}
+
 
 a.navbar-brand:hover {
   color: #fff;
@@ -77,6 +84,12 @@ button.navbar-text:hover {
 }
 
 
+.span-intro {
+  padding: 0.1em 0.4em;
+  font-weight:600;
+
+}
+
 /*components*/
 .span-components {
   background-color: #807DF5;
@@ -97,7 +110,14 @@ button.navbar-text:hover {
 }
 
 .btn-verde {
-  background-color: #16C995
+  background-color: #16C995;
+  border-color: transparent !important;
+}
+
+.btn-primary:hover {
+  background-color: #5549F1 !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
 }
 
 .ft-14px {
