@@ -59,7 +59,7 @@ a.navbar-brand:hover {
 
 button.navbar-text:hover {
   color: #fff;
-  background-color: #5549F1;
+  background-color: #f14949;
 }
 
 .sec-intro {
@@ -154,6 +154,7 @@ div.border-bottom {
 
 .demos-card {
   border-width: 0 !important;
+  border-radius: 10%;
 }
 
 .titulo-card {
@@ -180,11 +181,13 @@ div.border-bottom {
 
 .botao {
   height: 4em;
+  width: 200px;
   background-color: aliceblue;
+  opacity: 75%;
 }
 
 .icon-custom {
-  width: 2em;
+  width: 3em;
 }
 
 .arrow-right {
@@ -198,6 +201,11 @@ div.border-bottom {
 }
 
 .texto-inner {
-  color: rebeccapurple;
+  color: #766DF4;
   font-weight: 500;
+}
+
+.active {
+  background-color: white!important;
+  opacity: 100%;
 }
