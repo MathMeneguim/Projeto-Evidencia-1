@@ -52,7 +52,7 @@ a.navbar-brand:hover {
 
 button.navbar-text:hover {
   color: #fff;
-  background-color: #5549F1;
+  background-color: #f14949;
 }
 
 .sec-intro {
@@ -133,6 +133,7 @@ div.border-bottom {
 
 .demos-card {
   border-width: 0 !important;
+  border-radius: 10%;
 }
 
 .titulo-card {
